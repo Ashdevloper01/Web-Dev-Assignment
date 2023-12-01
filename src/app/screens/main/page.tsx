@@ -128,7 +128,7 @@ const Main = () => {
   };
 
   return (
-    <main className="flex min-h-screen flex-col justify-between p-24">
+    <main className="flex min-h-screen flex-col justify-between p-24 bg-black text-white">
       <div className="flex flex-col">
         <h2 className="mb-3 font-bold text-2xl">
           {editUserState > -1 ? "Edit" : "Enter"} your details

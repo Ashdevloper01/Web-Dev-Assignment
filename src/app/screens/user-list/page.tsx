@@ -7,7 +7,7 @@ import React, { useContext } from "react";
 const UserList = () => {
   const { users, deleteUser, setEditUserState } = useContext(UserContext);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-4 sm:p-8 text-black">
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 sm:p-8 text-black bg-black">
       <div className="overflow-x-auto w-full">
         {users?.length ? (
           <table className="w-full bg-white border border-gray-300">
